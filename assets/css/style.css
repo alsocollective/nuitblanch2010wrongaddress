@@ -13,20 +13,21 @@ body, html {
   margin: 0;
   width: 100%;
   font-family: 'Lato', sans-serif;
-  font-weight: 400;
+  font-weight: 100;
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
   -ms-font-smoothing: antialiased;
   -o-font-smoothing: antialiased;
   font-smoothing: antialiased;
   overflow-x: hidden;
-  background-color: black;
+  background-color: #000;
   font-size: 1.03em;
   letter-spacing: 0.035em;
-  background-color: black;
-  color: white;
+  background-color: #000;
+  color: #fff;
   min-height: 100%;
-  min-height: 100vh; }
+  min-height: 100vh;
+  text-align: center; }
 
 h1, h2, h3, blockquote, ul, li, p {
   padding: 0;
@@ -39,7 +40,8 @@ h4 {
   font-weight: 900; }
 
 p {
-  margin-top: 1.5rem; }
+  margin-top: 1.5rem;
+  font-weight: 300; }
 
 li {
   margin-left: 1.15rem; }
@@ -49,8 +51,7 @@ li {
   width: 80%;
   margin: 0 auto;
   position: relative;
-  z-index: 99;
-  text-align: left; }
+  z-index: 99; }
 
 #before_content {
   min-height: 300px;
@@ -67,14 +68,13 @@ li {
 
 h1 {
   font-size: 8rem;
-  padding: 4rem 0;
   font-weight: 100;
   letter-spacing: 0.08rem;
+  margin-top: 1.5rem;
   text-align: center; }
   @media screen and (max-width: 900px) {
     h1 {
-      font-size: 3rem;
-      font-weight: 300; } }
+      font-size: 2.2rem; } }
 
 blockquote {
   font-size: 1.5rem;
@@ -124,11 +124,11 @@ a {
   bottom: 0; }
 
 #bottom_section {
-  background-color: black;
+  background-color: #000;
   padding-top: 1rem;
-  -webkit-box-shadow: 0px -8px 232px 71px black;
-  -moz-box-shadow: 0px -8px 232px 71px black;
-  box-shadow: 0px -8px 232px 71px black; }
+  -webkit-box-shadow: 0px -8px 232px 71px #000;
+  -moz-box-shadow: 0px -8px 232px 71px #000;
+  box-shadow: 0px -8px 232px 71px #000; }
   @media screen and (max-width: 900px) {
     #bottom_section > div:first-child {
       text-align: left; } }
@@ -137,3 +137,5 @@ a {
       display: inline-block;
       width: auto;
       vertical-align: top; } }
+
+/*# sourceMappingURL=style.css.map */
